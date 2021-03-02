@@ -1,0 +1,250 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#intagram-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    /*width: 60%;*/
+    height: 100vh;
+}
+
+.primeira-section {
+    display: flex;
+    flex-grow: 1;
+}
+
+.instagram-phone1 {
+    display: flex;
+    align-items: center;
+    background-size: 454px 618px;
+    flex-basis: 454px;
+    height: 618px;
+    margin-left: -35px;
+    margin-right: -15px;
+    justify-content: center;
+    width: 50%;
+}
+
+
+.instagram-login-page {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.instagram-logo-name {
+    align-items: center;
+    background-color: rgba(var(--d87,255,255,255),1);
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    max-width: 360px;
+    width: 360px;
+    height: 67%;
+    margin-bottom: 0;
+}
+.label-form {
+    display: flex;
+    height: 36px;
+    -webkit-box-flex: 1;
+    flex: 1 0 0;
+    padding: 0;
+    position: relative;
+    margin: 0;
+    min-width: 0;
+}
+.form-login-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.form-login-input input {
+    margin: 0;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 4px;
+    width: 80%;
+    outline: 0;
+    height: 40px;
+    margin: 4px;
+    padding: 6px;
+}
+.logo-name img{
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 0 -130px;
+    height: 62px;
+    width: 175px;
+    margin: 22px auto 12px;
+}
+.stores-logo img{
+    height: 40px;
+    margin-right: 8px;
+}
+#formulario-de-login {
+    text-align: center;
+}
+.form-login-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-login {
+    background-color: #B2DFFC;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 80%;
+    height: 30px;
+    margin-bottom: 8px; 
+    outline: 0;
+    cursor: pointer;
+}
+.texto-login {
+    margin: 10px 40px 18px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+
+.linha-login1 {
+   flex-grow: 1;
+   background-color: #dbdbdb;
+   width: 100%;
+   height: 1px;
+   float: left;
+   margin-right: 5px;
+}
+.linha-login2 {
+   flex-grow: 1;
+   background-color: #dbdbdb;
+   width: 100%;
+   height: 1px;
+   float: right;
+   margin-left: 5px;
+ }
+.texto-login1{
+    display: flex;
+    text-align: center;
+    color: #8e8e8e;;
+    flex-shrink: 0;
+    font-size: 13px;
+    font-weight: 548;
+    line-height: 15px;
+    margin: 0 18px;
+    text-transform: uppercase;
+}
+.login-facebook {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.facebook-logo {
+    background-repeat: no-repeat;
+    background-position: -414px -259px;
+    height: 16px;
+    width: 16px;
+    margin: 0px 8px 0px 0px;
+}
+.texto-login-facebook {
+    color: #385185;
+    font-size: 14px;
+    cursor: pointer;
+}
+.esqueceu-senha {
+    color: #00376b;
+    font-size: 12px;
+    line-height: 14px;
+}
+.criar-conta {
+    align-items: center;
+    text-align: center;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 1px;
+    padding: 10px 0;
+    max-width: 360px;
+    width: 360px;
+    height: 64px;
+}
+.texto-criar-conta {
+    color: #262626;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+.texto-cadastrar {
+    color: #0095f6;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 549;
+}
+.apple-pay-store-logo {
+    margin-top: 12px;
+}
+.baixe-o-app {
+    color: #262626;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 30px;
+    margin-top: 12px;
+    text-align: center;
+    margin-top: 0;
+}
+
+/* media queries */
+@media(max-width: 1024px) {
+    .primeira-section {
+        width: 100%
+    }
+   /* .instagram-phone1 {
+        width: 90%;
+    }
+    .instagram-login-page{
+        width: 90%;
+    }*/
+}
+
+@media(max-width: 650px) {
+    .primeira-section {
+        width: 90%;
+    }
+    .instagram-phone1 {
+        display: none;
+    }
+    .instagram-login-page {
+        width: 100%;
+    }
+    .instagram-logo-name {
+        height: 100%;
+        margin-bottom: 10px;
+    }
+}
